@@ -1,0 +1,77 @@
+.espacamento{
+    margin: 30px;
+}
+.dropdown-menu{
+  width:200px;
+  height: 224px;
+  overflow:auto;
+}
+.dropdown-menu li a{
+  width:100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.FCOCor{        
+    height:10px;
+    background-color: #FF4500;
+
+}
+.PROGERCor{        
+    height:10px;
+    background-color: #66bb6a;
+
+}
+.BNDESACor{        
+    height:10px;
+    background-color: #ffcc80;
+
+}
+.BNDESFCor{        
+    height:10px;
+    background-color: #bcaaa4;
+
+}
+.menuLogo{
+    background-color: gray;
+   
+}
+
+
+
+/* min-width */
+@media screen and (min-width: 900px) {
+	.logo{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .logo{
+        width: 50px;
+        height: 50px;
+
+    }
+    .logo2{
+        width: 50px;
+        height: 50px;
+        margin-left:-50%;
+    }
+}
+
+/* max device width */
+@media screen and (max-device-width: 480px) {
+    .logo{
+        width: 28px;
+        height: 28px;
+    }
+}
+
+.cartaoMedio{
+        height: 550px;
+}
+.codigo{
+    padding: 20px;
+}
