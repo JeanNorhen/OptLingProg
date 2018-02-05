@@ -14,7 +14,19 @@
   return{
       templateUrl:"js/diretivas/template/card.html",
       replace:true,
-      restrict:"E"
+      restrict:"E",
+      scope:{
+        ling:"@",
+        imagem:"@",
+        visi:"=",
+        versao:"@",
+        subtitulo:"@"
+
+      },
+      transclude: { 
+        'sintaxe': 'sintaxe',        
+        'exemplo': 'exemplo'
+    },
 
   };
 });
@@ -24,7 +36,60 @@
     $scope.visibilidade={
     "c":'true',"php":'true',"pascal":"true"
     };
-    $scope.linguagens=["c","pascal"];
+    $scope.linguagens=[
+      {
+        "nome":"C",
+        "imagem":"res/img/c.png",
+        "visibilidade":"true",
+        "versao":"versao",
+        "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
+        "altura":"550px"
+      
+      },
+      {
+        "nome":"Pascal",
+        "imagem":"res/img/pascal.png",
+        "visibilidade":"true",
+        "versao":"versao",
+        "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
+        "altura":"550px"
+      },
+      {
+        "nome":"Java",
+        "imagem":"res/img/java.png",
+        "visibilidade":"true",
+        "versao":"versao",
+        "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
+        "altura":"550px"
+      
+      },
+      {
+        "nome":"JavaScript",
+        "imagem":"res/img/javascript.png",
+        "visibilidade":"true",
+        "versao":"versao",
+        "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
+        "altura":"550px"
+      
+      },
+      {
+        "nome":"PHP",
+        "imagem":"res/img/php.png",
+        "visibilidade":"true",
+        "versao":"versão: 5.2.0",
+        "subtitulo":"Se condição verdadeira faça algo, se não, Se condição verdadeira faça outra coisa, se não faça outra coisa",
+        "altura":"600px"
+      },
+      {
+        "nome":"Python",
+        "imagem":"res/img/python.png",
+        "visibilidade":"true",
+        "versao":"versao",
+        "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
+        "altura":"550px"
+      
+      }
+  ];
     $scope.FCO = 1;
     $scope.setFCO = function(newFCO){
       $scope.FCO = newFCO;

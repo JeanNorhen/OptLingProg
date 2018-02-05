@@ -1,65 +1,33 @@
-<md-card flex-xs flex-gt-xs="45"  class="cartaoMedio"  layout="column" flex="grow" ng-show="visibilidade.c">
+<md-card style="max-width:400px"  style="min-height:altura"   flex="grow" data-ng-show="visi">
     <md-card-header>
       <md-card-avatar>
-        <img class="md-user-avatar" src="res/img/c.png">
+        <img class="md-user-avatar" src={{imagem}}>
       </md-card-avatar>
       <md-card-header-text>
-        <span class="md-title">Linguagem C </span>
-        <span class="md-subhead">Sub header</span>
+        <span class="md-title">Linguagem {{ling}} </span>
+        <span class="md-subhead">{{versao}}</span>
       </md-card-header-text>
     </md-card-header>
     <md-card-title>
       <md-card-title-text>
         <span class="md-headline">Estrutura condicional</span>
-        <span class="md-subhead">Se condição verdadeira faça algo, se não faça outra coisa.</span>
+        <span class="md-subhead">{{subtitulo}}</span>
+        <span data-ng-if="ling=='PHP'" class="md-subhead">Obs: Ha duas formas de definir blocos: abrir com <b>" : "</b> e fechar com <b>" endif "</b>  ou Abrir com <b>" { "</b> e fechar com <b>" } "</b></span>
       </md-card-title-text>
     </md-card-title>
     <md-divider></md-divider>
-        <md-card-actions>
-            <md-button class="md-raised md-accent" ng-click="sintaxe.c = !sintaxe.c">Ver código de Sintaxe</md-button>
-            <md-button class="md-raised md-primary" ng-click="sintaxe.c = !sintaxe.c">Ver código de Exemplo</md-button>
-        </md-card-actions>
+        <md-card-actions >
+           <div layout="row"  layout-align="end"> 
+            <md-button  class="md-raised md-primary" ng-click="sintaxe.ling = !sintaxe.ling">Ver código de Exemplo</md-button>
+          </div>
+          </md-card-actions>
     <md-divider></md-divider>
-    <md-card-content >                        
-      <div ng-show="sintaxe.c"  >
-          <p class="md-body-1"  >
-              if(Condição)
-              <br>
-              {
-                <blockquote>
-              Instruções;
-                </blockquote>
-              }
-              <br>
-               else
-               <br>
-              {
-                <blockquote>
-              Instruções;
-                </blockquote>
-              }
-              <br>
-           </p>
+    <md-card-content >   
+    <div layout="row" layout-align="center">                     
+      <div flex="45"  ng-transclude='sintaxe' >
       </div>
-      <div ng-show="!sintaxe.c">
-          <p class="md-body-1" >
-              if(Condição)
-              <br>
-              {
-                <blockquote>
-              Instruções;
-                </blockquote>
-              }
-              <br>
-               else
-               <br>
-              {
-                <blockquote>
-              Instruções;
-                </blockquote>
-              }
-              <br>
-           </p>
+      <div ng-show="sintaxe.ling" ng-transclude='exemplo'>
       </div>
+    </div>
     </md-card-content>
   </md-card>  
