@@ -20,19 +20,24 @@
         imagem:"@",
         visi:"=",
         versao:"@",
-        subtitulo:"@"
+        subtitulo:"@",
+        sintaxe:"=",
+        exemplo:"=",
+        myTextCard:"dsdsd"
 
-      },
+      }/*,
       transclude: { 
         'sintaxe': 'sintaxe',        
         'exemplo': 'exemplo'
     },
+    */
 
   };
 });
  app.controller('AppCtrl', AppCtrl);
   function AppCtrl ( $scope ) {
-
+    $scope.myText = "My name is: <h1>John Doe</h1>";
+    $scope.myTextCard = "My name is: <h1>John Doe</h1>";
     $scope.visibilidade={
     "c":'true',"php":'true',"pascal":"true"
     };
@@ -43,7 +48,9 @@
         "visibilidade":"true",
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
-        "altura":"550px"
+        "altura":"550px",
+        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
       
       },
       {
@@ -52,7 +59,10 @@
         "visibilidade":"true",
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
-        "altura":"550px"
+        "altura":"550px",
+        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+      
       },
       {
         "nome":"Java",
@@ -60,7 +70,10 @@
         "visibilidade":"true",
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
-        "altura":"550px"
+        "altura":"550px",
+        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+      
       
       },
       {
@@ -69,7 +82,10 @@
         "visibilidade":"true",
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
-        "altura":"550px"
+        "altura":"550px",
+        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+      
       
       },
       {
@@ -78,7 +94,10 @@
         "visibilidade":"true",
         "versao":"versão: 5.2.0",
         "subtitulo":"Se condição verdadeira faça algo, se não, Se condição verdadeira faça outra coisa, se não faça outra coisa",
-        "altura":"600px"
+        "altura":"600px",
+        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+      
       },
       {
         "nome":"Python",
@@ -86,7 +105,10 @@
         "visibilidade":"true",
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
-        "altura":"550px"
+        "altura":"550px",
+        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+      
       
       }
   ];

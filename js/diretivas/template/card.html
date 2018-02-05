@@ -23,11 +23,25 @@
           </md-card-actions>
     <md-divider></md-divider>
     <md-card-content >   
-    <div layout="row" layout-align="center">                     
-      <div flex="45"  ng-transclude='sintaxe' >
-      </div>
-      <div ng-show="sintaxe.ling" ng-transclude='exemplo'>
-      </div>
+
+    <div layout="row" layout-align="center">  
+        <ng-bind-html
+        ng-bind-html=sintaxe>
+
+      </ng-bind-html>
+      <ng-bind-html
+      ng-bind-html={{exemplo}}>
+
+    </ng-bind-html>
+    <ng-bind-html
+    ng-bind-html="exemplo">
+
+  </ng-bind-html>
+      <p flex="45"  ng-bind-html=sintaxe >
+          <p ng-bind-html="myTextCard"></p>
+      </p>
+      <p  data-ng-bind-html={{exemplo}}>
+      </p>
     </div>
     </md-card-content>
   </md-card>  
