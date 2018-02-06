@@ -43,7 +43,6 @@
                     <div class="FCOCor"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Funções matemáticas">
-                          <p ng-bind-html="myText">s</p>
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                               <card 
@@ -53,8 +52,6 @@
                               versao={{l.versao}}
                               subtitulo={{l.subtitulo}}
                               altura={{l.altura}}
-                              sintaxe="l.sintaxe"
-                              exemplo="l.exemplo"
                               >
                           </card>
                           </div>
@@ -864,6 +861,7 @@
   <script src="js/jquery.mask.js"></script>
 
   <script src="js/index.js"></script>
+  <script src="node_modules/angular-sanitize/angular-sanitize.js"></script>
 
 
 

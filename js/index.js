@@ -22,8 +22,7 @@
         versao:"@",
         subtitulo:"@",
         sintaxe:"=",
-        exemplo:"=",
-        myTextCard:"dsdsd"
+        exemplo:"="
 
       }/*,
       transclude: { 
