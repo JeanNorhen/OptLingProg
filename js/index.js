@@ -1,7 +1,7 @@
 
  (function () {
   'use strict';
-    var app=angular.module('consLingProg', ['ngMaterial','ngMessages']);
+    var app=angular.module('consLingProg',['ngMaterial','ngMessages','ngSanitize']);
     app.config(function ($mdThemingProvider, $mdAriaProvider) {
     $mdAriaProvider.disableWarnings();
   $mdThemingProvider.theme('altTheme')
