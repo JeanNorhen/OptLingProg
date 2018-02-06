@@ -21,8 +21,8 @@
         visi:"=",
         versao:"@",
         subtitulo:"@",
-        sintaxe:"=",
-        exemplo:"="
+        sintaxe:"@",
+        exemplo:"@"
 
       }/*,
       transclude: { 

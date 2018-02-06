@@ -30,7 +30,7 @@
         </div>
 
       </md-toolbar>
-
+      
       <div layout="row">
         <div flex="90">
           <md-tabs md-dynamic-height md-border-bottom>
@@ -44,6 +44,7 @@
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Funções matemáticas">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                          
                           <div ng-repeat="l in linguagens ">
                               <card 
                               ling={{l.nome}}
@@ -52,6 +53,8 @@
                               versao={{l.versao}}
                               subtitulo={{l.subtitulo}}
                               altura={{l.altura}}
+                              sintaxe={{l.sintaxe}}
+                              exemplo={{l.exemplo}}
                               >
                           </card>
                           </div>
