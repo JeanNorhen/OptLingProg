@@ -23,20 +23,11 @@
         subtitulo:"@",
         sintaxe:"@",
         exemplo:"@"
-
-      }/*,
-      transclude: { 
-        'sintaxe': 'sintaxe',        
-        'exemplo': 'exemplo'
-    },
-    */
-
+      }
   };
 });
  app.controller('AppCtrl', AppCtrl);
   function AppCtrl ( $scope ) {
-    $scope.myText = "My name is: <h1>John Doe</h1>";
-    $scope.myTextCard = "My name is: <h1>John Doe</h1>";
     $scope.visibilidade={
     "c":'true',"php":'true',"pascal":"true"
     };
@@ -48,9 +39,31 @@
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
         "altura":"550px",
-        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
-      
+        "funMAt":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "tipDados":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "const":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "leitu":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "escri":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "atrib":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        }
+        
       },
       {
         "nome":"Pascal",
@@ -59,9 +72,30 @@
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
         "altura":"550px",
-        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
-      
+        "funMAt":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "tipDados":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "const":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "leitu":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "escri":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "atrib":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        }
       },
       {
         "nome":"Java",
@@ -70,10 +104,30 @@
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
         "altura":"550px",
-        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
-      
-      
+        "funMAt":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "tipDados":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "const":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "leitu":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "escri":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "atrib":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        }
       },
       {
         "nome":"JavaScript",
@@ -82,10 +136,30 @@
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
         "altura":"550px",
-        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
-      
-      
+        "funMAt":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "tipDados":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "const":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "leitu":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "escri":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "atrib":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        }
       },
       {
         "nome":"PHP",
@@ -94,9 +168,30 @@
         "versao":"versão: 5.2.0",
         "subtitulo":"Se condição verdadeira faça algo, se não, Se condição verdadeira faça outra coisa, se não faça outra coisa",
         "altura":"600px",
-        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
-      
+        "funMAt":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "tipDados":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "const":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "leitu":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "escri":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "atrib":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        }
       },
       {
         "nome":"Python",
@@ -105,44 +200,64 @@
         "versao":"versao",
         "subtitulo":"Se condição verdadeira faça algo, se não faça outra coisa.",
         "altura":"550px",
-        "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-        "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
-      
-      
+        "funMAt":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "tipDados":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "const":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "leitu":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "escri":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        },
+        "atrib":{
+          "sintaxe":"If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo":"If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+        }
       }
   ];
-    $scope.FCO = 1;
-    $scope.setFCO = function(newFCO){
-      $scope.FCO = newFCO;
+    $scope.dadosVariaveis = 1;
+    $scope.setdadosVariaveis = function(newdadosVariaveis){
+      $scope.dadosVariaveis = newdadosVariaveis;
     };
 
-    $scope.isFCO = function(tabFCO){
-      return $scope.FCO === tabFCO;
+    $scope.isdadosVariaveis = function(tabdadosVariaveis){
+      return $scope.dadosVariaveis === tabdadosVariaveis;
     };
-    $scope.PROGER = 1;
-    $scope.setPROGER = function(newPROGER){
-      $scope.PROGER = newPROGER;
-    };
-
-    $scope.isPROGER = function(tabPROGER){
-      return $scope.PROGER === tabPROGER;
+    $scope.comandosBasicos = 1;
+    $scope.setcomandosBasicos = function(newcomandosBasicos){
+      $scope.comandosBasicos = newcomandosBasicos;
     };
 
-      $scope.BNDESA = 1;
-    $scope.setBNDESA = function(newBNDESA){
-      $scope.BNDESA = newBNDESA;
+    $scope.iscomandosBasicos = function(tabcomandosBasicos){
+      return $scope.comandosBasicos === tabcomandosBasicos;
     };
 
-    $scope.isBNDESA = function(tabBNDESA){
-      return $scope.BNDESA === tabBNDESA;
-    };
-      $scope.BNDESF = 1;
-    $scope.setBNDESF = function(newBNDESF){
-      $scope.BNDESF = newBNDESF;
+      $scope.estCondicionais = 1;
+    $scope.setestCondicionais = function(newestCondicionais){
+      $scope.estCondicionais = newestCondicionais;
     };
 
-    $scope.isBNDESF = function(tabBNDESF){
-      return $scope.BNDESF === tabBNDESF;
+    $scope.isestCondicionais = function(tabestCondicionais){
+      return $scope.estCondicionais === tabestCondicionais;
+    };
+      $scope.estRepeticao = 1;
+    $scope.setestRepeticao = function(newestRepeticao){
+      $scope.estRepeticao = newestRepeticao;
+    };
+
+    $scope.isestRepeticao = function(tabestRepeticao){
+      return $scope.estRepeticao === tabestRepeticao;
     };
 
   }

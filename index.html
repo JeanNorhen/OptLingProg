@@ -34,17 +34,17 @@
       <div layout="row">
         <div flex="90">
           <md-tabs md-dynamic-height md-border-bottom>
-            <!--///////////////////////Dados e Variáveis isFCO(1)//////////////////////////// -->
+            <!--///////////////////////Dados e Variáveis isdadosVariaveis(1)//////////////////////////// -->
 
             <md-tab label="Dados e Variáveis">
-              <md-content id="FCOpasso1" ng-show="isFCO(1)">
+              <md-content id="dadosVariaveispasso1" ng-show="isdadosVariaveis(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="FCOCor"></div>
+                    <div class="dadosVariaveisCor"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Funções matemáticas">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
-                          
+                         
                           <div ng-repeat="l in linguagens ">
                               <card 
                               ling={{l.nome}}
@@ -53,8 +53,8 @@
                               versao={{l.versao}}
                               subtitulo={{l.subtitulo}}
                               altura={{l.altura}}
-                              sintaxe={{l.sintaxe}}
-                              exemplo={{l.exemplo}}
+                              sintaxe={{l.funMAt.sintaxe}}
+                              exemplo={{l.funMAt.exemplo}}
                               >
                           </card>
                           </div>
@@ -152,10 +152,10 @@
 
             <md-tab label="Comandos Básicos">
 
-              <md-content id="PROGERpasso1" ng-show="isPROGER(1)">
+              <md-content id="comandosBasicospasso1" ng-show="iscomandosBasicos(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="PROGERCor"></div>
+                    <div class="comandosBasicosCor"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Leitura">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
@@ -325,10 +325,10 @@
             <!--///////////////////////Est. Condicionais//////////////////////////// -->
 
             <md-tab label="Est. Condicionais">
-              <md-content id="passo1" ng-show="isBNDESA(1)">
+              <md-content id="passo1" ng-show="isestCondicionais(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="BNDESACor"></div>
+                    <div class="estCondicionaisCor"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Operadores Lógicos">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
@@ -651,12 +651,12 @@
               </md-content>
             </md-tab>
             <md-tab label="Est. Repetição">
-              <!--///////////////////////BNDESF isBNDESF(1)//////////////////////////// -->
+              <!--///////////////////////estRepeticao isestRepeticao(1)//////////////////////////// -->
 
-              <md-content id="passo1" ng-show="isBNDESF(1)">
+              <md-content id="passo1" ng-show="isestRepeticao(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="BNDESFCor"></div>
+                    <div class="BNDESdadosVariaveisr"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Contadores">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>

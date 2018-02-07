@@ -18,14 +18,15 @@
     <md-divider></md-divider>
         <md-card-actions >
            <div layout="row"  layout-align="end"> 
-            <md-button  class="md-raised md-primary" ng-click="sintaxe.ling = !sintaxe.ling">Ver código de Exemplo</md-button>
+            <md-button  class="md-raised md-primary" ng-click="mostraExemplo = !mostraExemplo">Ver código de Exemplo</md-button>
           </div>
           </md-card-actions>
     <md-divider></md-divider>
     <md-card-content >  
     <div layout="row" layout-align="center"> 
-        <p flex="45"  ng-bind-html="sintaxe"></p>
-        <p  ng-bind-html="exemplo"></p>
+      {{mostraExemplo}}
+        <p  flex="45"  ng-bind-html="sintaxe"></p>
+        <p ng-if="mostraExemplo" ng-bind-html="exemplo"></p>
     </div>
     </md-card-content>
   </md-card>  
