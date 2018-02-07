@@ -12,22 +12,22 @@
   text-align: center;
 }
 
-.FCOCor{        
+.dadosVariaveisCor{        
     height:10px;
     background-color: #FF4500;
 
 }
-.PROGERCor{        
+.comandosBasicosCor{        
     height:10px;
     background-color: #66bb6a;
 
 }
-.BNDESACor{        
+.estCondicionaisCor{        
     height:10px;
     background-color: #ffcc80;
 
 }
-.BNDESFCor{        
+.estRepeticaoCor{        
     height:10px;
     background-color: #bcaaa4;
 
