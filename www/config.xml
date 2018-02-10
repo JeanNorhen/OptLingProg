@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.OptLingProg" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloWorld</name>
+<widget id="com.phonegap.ffff" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ProLinguador</name>
     <description>
-        Hello World sample application with Pushwoosh Phonegap push notifications plugin integrated
+        Base para migração de linguagens de programação
     </description>
     <author email="support@pushwoosh.com" href="http://pushwoosh.com">
-        Pushwoosh
+        SI-UFMT
     </author>
     <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="orientation" value="default" />
