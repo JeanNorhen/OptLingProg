@@ -43,7 +43,7 @@
                       <md-tab label="Funções matemáticas">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.funMAt.subtitulo}} titulo={{l.funMAt.titulo}} altura={{l.altura}}
                               sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
                             </card>
                           </div>
@@ -52,7 +52,7 @@
                       <md-tab label="Tipos de Dados ">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.tipDados.subtitulo}}  titulo={{l.tipDados.titulo}} altura={{l.altura}}
                               sintaxe={{l.tipDados.sintaxe}} exemplo={{l.tipDados.exemplo}}>
                             </card>
                           </div>
@@ -63,7 +63,7 @@
                       <md-tab label="Constantes">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.const.subtitulo}}  titulo={{l.const.titulo}}  altura={{l.altura}}
                               sintaxe={{l.const.sintaxe}} exemplo={{l.const.exemplo}}>
                             </card>
                           </div>
@@ -88,7 +88,7 @@
                       <md-tab label="Leitura">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.leitu.subtitulo}}  titulo={{l.leitu.titulo}}  altura={{l.altura}}
                               sintaxe={{l.leitu.sintaxe}} exemplo={{l.leitu.exemplo}}>
                             </card>
                           </div>
@@ -98,7 +98,7 @@
                       <md-tab label="Escrita">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.escri.subtitulo}}  titulo={{l.escri.titulo}}  altura={{l.altura}}
                               sintaxe={{l.escri.sintaxe}} exemplo={{l.escri.exemplo}}>
                             </card>
                           </div>
@@ -108,21 +108,19 @@
                       <md-tab label="Atribuição">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.atrib.subtitulo}}  titulo={{l.atrib.titulo}}  altura={{l.altura}}
                               sintaxe={{l.atrib.sintaxe}} exemplo={{l.atrib.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Comentários">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.comen.subtitulo}}  titulo={{l.comen.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.comen.sintaxe}} exemplo={{l.comen.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                     </md-tabs>
@@ -141,252 +139,30 @@
                       <md-tab label="Operadores Lógicos">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.opLog.subtitulo}}  titulo={{l.opLog.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.opLog.sintaxe}} exemplo={{l.opLog.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Condicional 'Se /   Senão' ">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding"  layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.condi.subtitulo}}  titulo={{l.condi.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.condi.sintaxe}} exemplo={{l.condi.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
-
-
-                        <md-card flex-xs flex-gt-xs="45" class="cartaoMedio" layout="column" flex="grow" ng-show="visibilidade.pascal">
-                          <md-card-header>
-                            <md-card-avatar>
-                              <img class="md-user-avatar" src="res/img/pascal.png">
-                            </md-card-avatar>
-                            <md-card-header-text>
-                              <span class="md-title">Linguagem Pascal </span>
-                              <span class="md-subhead">Sub header</span>
-                            </md-card-header-text>
-                          </md-card-header>
-                          <md-card-title>
-                            <md-card-title-text>
-                              <span class="md-headline">Estrutura condicional</span>
-                              <span class="md-subhead">Se condição verdadeira faça algo, se não faça outra coisa</span>
-                            </md-card-title-text>
-                          </md-card-title>
-                          <md-divider></md-divider>
-                          <md-card-actions>
-                            <md-button class="md-raised md-accent" ng-click="sintaxe.c = !sintaxe.c">Ver código de Sintaxe</md-button>
-                            <md-button class="md-raised md-primary" ng-click="sintaxe.c = !sintaxe.c">Ver código de Exemplo</md-button>
-                          </md-card-actions>
-                          <md-divider></md-divider>
-                          <md-card-content>
-                            <p class="md-body-1">
-                              If (Condição) Then
-                              <br> Begin
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              End
-                              <br> Else
-                              <br> Begin
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              End;
-                              <br>
-
-                            </p>
-                          </md-card-content>
-                        </md-card>
-                        <md-card flex-xs flex-gt-xs="45" class="cartaoMedio" flex="grow" layout="column" ng-show="visibilidade.java">
-                          <md-card-header>
-                            <md-card-avatar>
-                              <img class="md-user-avatar" src="res/img/java.png">
-                            </md-card-avatar>
-                            <md-card-header-text>
-                              <span class="md-title">Linguagem Java </span>
-                              <span class="md-subhead">Sub header</span>
-                            </md-card-header-text>
-                          </md-card-header>
-                          <md-card-title>
-                            <md-card-title-text>
-                              <span class="md-headline">Estrutura condicional</span>
-                              <span class="md-subhead">Se condição verdadeira faça algo, se não faça outra coisa</span>
-                            </md-card-title-text>
-                          </md-card-title>
-                          <md-divider></md-divider>
-                          <md-card-actions>
-                            <md-button class="md-raised md-accent" ng-click="sintaxe.c = !sintaxe.c">Ver código de Sintaxe</md-button>
-                            <md-button class="md-raised md-primary" ng-click="sintaxe.c = !sintaxe.c">Ver código de Exemplo</md-button>
-                          </md-card-actions>
-                          <md-divider></md-divider>
-                          <md-card-content>
-                            <p class="md-body-1">
-                              if (Condição)
-                              <br> {
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              }
-                              <br> else
-                              <br> {
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              }
-                              <br>
-                            </p>
-                          </md-card-content>
-                        </md-card>
-                        <md-card flex-xs flex-gt-xs="45" class="cartaoMedio" layout="column" ng-show="visibilidade.javascript">
-                          <md-card-header>
-                            <md-card-avatar>
-                              <img class="md-user-avatar" src="res/img/javascript.png">
-                            </md-card-avatar>
-                            <md-card-header-text>
-                              <span class="md-title">Linguagem JavaScript </span>
-                              <span class="md-subhead">Sub header</span>
-                            </md-card-header-text>
-                          </md-card-header>
-                          <md-card-title>
-                            <md-card-title-text>
-                              <span class="md-headline">Estrutura condicional</span>
-                              <span class="md-subhead">Se condição verdadeira faça algo, se não faça outra coisa</span>
-                            </md-card-title-text>
-                          </md-card-title>
-                          <md-divider></md-divider>
-                          <md-card-actions>
-                            <md-button class="md-raised md-accent" ng-click="sintaxe.c = !sintaxe.c">Ver código de Sintaxe</md-button>
-                            <md-button class="md-raised md-primary" ng-click="sintaxe.c = !sintaxe.c">Ver código de Exemplo</md-button>
-                          </md-card-actions>
-                          <md-divider></md-divider>
-                          <md-card-content>
-                            <p class="md-body-1">
-                              if (Condição)
-                              <br> {
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              }
-                              <br> else
-                              <br> {
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              }
-                              <br>
-                            </p>
-                          </md-card-content>
-                        </md-card>
-                        <md-card flex-xs flex-gt-xs="45" layout="column" ng-show="visibilidade.php">
-                          <md-card-header>
-                            <md-card-avatar>
-                              <img class="md-user-avatar" src="res/img/php.png">
-                            </md-card-avatar>
-                            <md-card-header-text>
-                              <span class="md-title">Linguagem PHP </span>
-                              <span class="md-subhead">versão: 5.2.0</span>
-                            </md-card-header-text>
-                          </md-card-header>
-                          <md-card-title>
-                            <md-card-title-text>
-                              <span class="md-headline">Estrutura condicional</span>
-                              <span class="md-subhead">Se condição verdadeira faça algo, se não, Se condição verdadeira faça outra coisa, se não faça
-                                outra coisa</span>
-                              <span class="md-subhead">Obs: Ha duas formas de definir blocos: abrir com
-                                <b>" : "</b> e fechar com
-                                <b>" endif "</b> ou Abrir com
-                                <b>" { "</b> e fechar com
-                                <b>" } "</b>
-                              </span>
-                            </md-card-title-text>
-                          </md-card-title>
-                          <md-divider></md-divider>
-                          <md-card-actions>
-                            <md-button class="md-raised md-accent" ng-click="sintaxe.c = !sintaxe.c">Ver código de Sintaxe</md-button>
-                            <md-button class="md-raised md-primary" ng-click="sintaxe.c = !sintaxe.c">Ver código de Exemplo</md-button>
-                          </md-card-actions>
-                          <md-divider></md-divider>
-                          <md-card-content>
-                            <p class="md-body-1">
-
-                              if (Condição)
-                              <br> {
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              }
-                              <br> elseif (Condição)
-                              <br> {
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              }
-                              <br> else
-                              <br> {
-                              <blockquote>
-                                Instruções;
-                              </blockquote>
-                              }
-                            </p>
-
-                          </md-card-content>
-
-
-                        </md-card>
-
-                        <md-card flex-xs flex-gt-xs="45" class="cartaoMedio" layout="column">
-                          <md-card-header>
-                            <md-card-avatar>
-                              <img class="md-user-avatar" src="res/img/python.png">
-                            </md-card-avatar>
-                            <md-card-header-text>
-                              <span class="md-title">Linguagem Python </span>
-                              <span class="md-subhead">Sub header</span>
-                            </md-card-header-text>
-                          </md-card-header>
-                          <md-card-title>
-                            <md-card-title-text>
-                              <span class="md-headline">Estrutura condicional</span>
-                              <span class="md-subhead">Se condição verdadeira faça algo, se não faça outra coisa</span>
-                              <span class="md-subhead">Obs: Os blocos de comandos em Python são definidos por recuo (na linha posterior) após declaração
-                                da condicional.</span>
-                            </md-card-title-text>
-                          </md-card-title>
-                          <md-divider></md-divider>
-                          <md-card-actions>
-                            <md-button class="md-raised md-accent" ng-click="sintaxe.c = !sintaxe.c">Ver código de Sintaxe</md-button>
-                            <md-button class="md-raised md-primary" ng-click="sintaxe.c = !sintaxe.c">Ver código de Exemplo</md-button>
-                          </md-card-actions>
-                          <md-divider></md-divider>
-                          <md-card-content>
-                            <p class="md-body-1">
-                              if (Condição):
-                              <blockquote>Instruções</blockquote>
-                              else:
-                              <blockquote>Instruções</blockquote>
-                            </p>
-                          </md-card-content>
-
-                        </md-card>
-
-                        </md-card-content>
-
                       </md-tab>
                       <md-tab label="Escolha/Caso">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.escol.subtitulo}}  titulo={{l.escol.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.escol.sintaxe}} exemplo={{l.escol.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
-
-
                     </md-tabs>
                   </md-card>
                 </div>
@@ -403,41 +179,37 @@
                       <md-tab label="Contadores">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.conta.subtitulo}}  titulo={{l.conta.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.conta.sintaxe}} exemplo={{l.conta.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Laço 'For'">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.refor.subtitulo}}  titulo={{l.refor.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.refor.sintaxe}} exemplo={{l.refor.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Teste no início">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.reIni.subtitulo}}  titulo={{l.reIni.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.reIni.sintaxe}} exemplo={{l.reIni.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Teste no final">
                         <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.subtitulo}} altura={{l.altura}}
-                              sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
+                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.reFim.subtitulo}}  titulo={{l.reFim.titulo}}  altura={{l.altura}}
+                              sintaxe={{l.reFim.sintaxe}} exemplo={{l.reFim.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                     </md-tabs>
@@ -468,14 +240,12 @@
           </md-button>
         </div>
       </div>
-
     </div>
   </div>
   <script src="node_modules/angular/angular.min.js"></script>
   <script src="node_modules/angular-animate/angular-animate.min.js"></script>
   <script src="node_modules/angular-aria/angular-aria.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
-
   <script src="node_modules/angular-material/angular-material.min.js"></script>
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
@@ -484,13 +254,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.mask.js"></script>
-
   <script src="js/index.js"></script>
   <script src="node_modules/angular-sanitize/angular-sanitize.js"></script>
-
-
-
 </body>
-{{873}}
-
 </html>

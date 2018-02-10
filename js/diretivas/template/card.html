@@ -10,9 +10,10 @@
     </md-card-header>
     <md-card-title>
       <md-card-title-text>
-        <span class="md-headline">Estrutura condicional</span>
-        <span class="md-subhead">{{subtitulo}}</span>
+        <span class="md-headline">{{titulo}}</span>
+        <span ng-bind-html="subtitulo" class="md-subhead"></span>
         <span data-ng-if="ling=='PHP'" class="md-subhead">Obs: Ha duas formas de definir blocos: abrir com <b>" : "</b> e fechar com <b>" endif "</b>  ou Abrir com <b>" { "</b> e fechar com <b>" } "</b></span>
+        <span data-ng-if="ling=='Python'" class="md-subhead">Obs: Esta linguagem abre e fecha os blocos atraves da indentação (recuo no codigo)</span>
       </md-card-title-text>
     </md-card-title>
     <md-divider></md-divider>
@@ -24,7 +25,6 @@
     <md-divider></md-divider>
     <md-card-content >  
     <div layout="row" layout-align="center"> 
-      {{mostraExemplo}}
         <p  flex="45"  ng-bind-html="sintaxe"></p>
         <p ng-if="mostraExemplo" ng-bind-html="exemplo"></p>
     </div>
