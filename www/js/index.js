@@ -229,7 +229,7 @@
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "<b>Byte </b> Armazenar 8 bits de informação<br> <b>Short </b>Armazenar números inteiros de 16 bits<br> <b>Int </b> ou <b>Long </b> Números Inteiros<br> <b>Char </b> Um caractere <br> <b>String </b> Um ou mais caracteres <br> (OBJETO) <b>Boolean </b> armazena True ou False<br> <b>Double </b> ou <b>Float</b> Ponto Flutuante<br>",
+          "sintaxe": "<b>Byte </b> Armazenar 8 bits de informação<br> <b>Short </b>Armazenar números inteiros de 16 bits<br> <b>Int </b> ou <b>Long </b> Números Inteiros<br> <b>Char </b> Um caractere <br> <b>String </b> Um ou mais caracteres (OBJETO) <br> <b>Double </b> ou <b>Float</b> Ponto Flutuante<br> <b>[]</b> Vetor ( pacote java.util )<br> <b>Boolean </b> armazena True ou False<br>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
@@ -321,7 +321,7 @@
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "<b>Number </b> Números Inteiros<br>Number <b>String </b> Um ou mais caracteres <br>String <b>Boolean </b> armazena True ou False<br>Boolean <b>Null </b>Seu valor é sempre nulo.<br> <b>undefined </b>Seu valor é sempre undefined.<br>",
+          "sintaxe": "<b>Number </b> Números Inteiros<br> <b>String </b> Um ou mais caracteres <br> <b>Boolean </b> armazena True ou False<br> <b>Null </b>Seu valor é sempre nulo.<br> <b>undefined </b>Seu valor é sempre undefined.<br>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
