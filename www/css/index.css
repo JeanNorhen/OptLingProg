@@ -42,8 +42,8 @@
 /* min-width */
 @media screen and (min-width: 900px) {
 	.logo{
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -52,13 +52,7 @@
     .logo{
         width: 50px;
         height: 50px;
-
-    }
-    .logo2{
-        width: 50px;
-        height: 50px;
-        margin-left:-50%;
-    }
+    }    
 }
 
 /* max device width */
