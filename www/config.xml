@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.ffff" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.phonegap.ProLinguador" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ProLinguador</name>
     <description>
-        Base para migração de linguagens de programação
+        Base para migração entre linguagens de programação, desenvolvido para auxiliar alunos do curso de sistemas de informação a migrar entre as diferentes linguagens
     </description>
-    <author email="support@pushwoosh.com" href="http://pushwoosh.com">
+    <author email="jean-norhen@hotmail.com" href="http://ufmt.br">
         SI-UFMT
     </author>
     <preference name="phonegap-version" value="cli-6.5.0" />
-    <preference name="orientation" value="default" />
+    <preference name="orientation" value="landscape" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
