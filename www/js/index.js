@@ -32,7 +32,7 @@
     $scope.linguagens = [
       {
         "nome": "C",
-        "imagem": "res/img/c.png",
+        "imagem": "img/c.png",
         "visibilidade": "true",
         "versao": "versao",
         "altura": "550px",
