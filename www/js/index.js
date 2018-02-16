@@ -321,7 +321,7 @@
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "<b>Number </b> Números Inteiros<br> <b>String </b> Um ou mais caracteres <br> <b>Boolean </b> armazena True ou False<br> <b>Float </b> Ponto Flutuante <br> <b>[]</b> Vetor ( pacote java.util )<br> <b>Null </b>Seu valor é sempre nulo.<br> <b>undefined </b>Seu valor é sempre undefined.<br> <b>Symbol </b>Um tipo de dado cuja as instâncias são únicas e imutáveis.. (<b>novo </b/>)<br>",
+          "sintaxe": "<b>Number </b> Números Inteiros<br> <b>String </b> Um ou mais caracteres <br> <b>Boolean </b> armazena True ou False<br> <b>Float </b> Ponto Flutuante <br> <b>[]</b> Vetor ( pacote java.util )<br> <b>Null </b>Seu valor é sempre nulo.<br> <b>undefined </b>Seu valor é sempre undefined.<br> <b>Symbol </b>Um tipo de dado cuja as instâncias são únicas e imutáveis.(<b>novo </b/>)<br>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
