@@ -124,7 +124,7 @@
       },
       {
         "nome": "Pascal",
-        "imagem": "res/img/pascal.png",
+        "imagem": "img/pascal.png",
         "visibilidade": "true",
         "versao": "versao",
         "altura": "550px",
@@ -216,7 +216,7 @@
       },
       {
         "nome": "Java",
-        "imagem": "res/img/java.png",
+        "imagem": "img/java.png",
         "visibilidade": "true",
         "versao": "versao",
         "altura": "550px",
@@ -308,7 +308,7 @@
       },
       {
         "nome": "JavaScript",
-        "imagem": "res/img/javascript.png",
+        "imagem": "img/javascript.png",
         "visibilidade": "true",
         "versao": "ECMAScript 6",
         "altura": "550px",
@@ -400,7 +400,7 @@
       },
       {
         "nome": "PHP",
-        "imagem": "res/img/php.png",
+        "imagem": "img/php.png",
         "visibilidade": "true",
         "versao": "versão: 5.2.0",
         "altura": "600px",
@@ -492,7 +492,7 @@
       },
       {
         "nome": "Python",
-        "imagem": "res/img/python.png",
+        "imagem": "img/python.png",
         "visibilidade": "true",
         "versao": "versao",
         "altura": "550px",
