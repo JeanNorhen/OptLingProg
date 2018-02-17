@@ -50,9 +50,9 @@
         },
         "const": {
           "titulo": "CONSTANTES",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "Declara-se constantes através da Diretiva #define seguida <br>por um nome e um valor para a constante",
+          "sintaxe": "<b>#define</b> nome_da_constante valor",
+          "exemplo": "int main(void) { /* ... */ }"
         },
         "leitu": {
           "titulo": "LEITURA",
@@ -454,7 +454,7 @@
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
-          "subtitulo": "<b>Se condição</b> verdadeira faça algo, <b>se não</b>, <b>se segunda condição</b> for verdadeira faça outra coisa, <b>se não</b> (segunda condição falsa) faça uma terceira coisa.",
+          "subtitulo": "<b>Se condição</b> verdadeira faça algo, <br><b>se não</b>, <b>se segunda condição</b> for verdadeira faça outra coisa, <b>se não</b> (segunda condição falsa) faça uma terceira coisa.",
           "sintaxe": "<p class='md-body-1'> if (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> elseif (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> else <br> { <blockquote> Instruções; </blockquote> } </p>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },

@@ -41,10 +41,6 @@
 .logo{
     width: 75%;
 }
-
-.cartaoMedio{
-        height: 550px;
-}
-.codigo{
-    padding: 20px;
+.cartaoCodigo{
+    width: 400px;
 }
