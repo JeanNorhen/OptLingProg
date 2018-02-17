@@ -52,7 +52,7 @@
           "titulo": "CONSTANTES",
           "subtitulo": "Declara-se constantes através da Diretiva #define seguida <br>por um nome e um valor para a constante",
           "sintaxe": "<b>#define</b> nome_da_constante valor",
-          "exemplo": "int main(void) { /* ... */ }"
+          "exemplo": "int main(void) { <br>/* ... *<br>/ }"
         },
         "leitu": {
           "titulo": "LEITURA",
