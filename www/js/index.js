@@ -138,13 +138,13 @@
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Integer</b> Números Inteiros<br> <b>Char </b> Um caractere <br> <b>String </b> Um ou mais caracteres <br> <b>Real</b> Ponto Flutuante<br> <b>Array </b> Vetor<br> <b>Bool </b> Armazena True ou False<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "VAR<br> Idade: INTEGER;<br>Sexo: CHAR;<br> Nome: STRING;<br>Salario: REAL;<br>Aprovado, Reprovado : Boolean;<br>Meses:array[1..12] of integer; "
         },
         "const": {
           "titulo": "CONSTANTES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "CONST<br>   nome_da_constante = valor_da_constante ;",
+          "exemplo": "CONST<br>PI=3.1415926;"
         },
         "leitu": {
           "titulo": "LEITURA",
@@ -234,9 +234,9 @@
         },
         "const": {
           "titulo": "CONSTANTES",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "Define uma variável do tipo static ou global, que já é a <br>versão final, do tipo string, atribui um nome e inicializa com um valor ",
+          "sintaxe": "static/global final String nome_da_constante = valor_da_constante;",
+          "exemplo": "static final float PI=3.14159265f;"
         },
         "leitu": {
           "titulo": "LEITURA",
@@ -326,9 +326,9 @@
         },
         "const": {
           "titulo": "CONSTANTES",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "Define uma constante com um determinado nome e valor, <br>imutáveis em tempo de execução",
+          "sintaxe": "const name_da_constante = valor ",
+          "exemplo": "const pi = 3.14159265;"
         },
         "leitu": {
           "titulo": "LEITURA",
@@ -418,9 +418,9 @@
         },
         "const": {
           "titulo": "CONSTANTES",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "Define uma constante com os parametros, nome, valor e se <br>esta deve ser sensível a maiúsculas e minúsculas ",
+          "sintaxe": "define ( nome, Valor,true)",
+          "exemplo": "\<\? php<br>define(\"CONSTANTE\"\, \"Alô Mundo.\"\);<br>echo CONSTANTE;<br>echo Constante;<br>define\(\"GREETING\"\, \"Alô Você.\",TRUE\)\;<br>echo GREETING\;<br>echo Greeting\;<br>?>"
         },
         "leitu": {
           "titulo": "LEITURA",
@@ -454,7 +454,7 @@
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
-          "subtitulo": "<b>Se condição</b> verdadeira faça algo, <br><b>se não</b>, <b>se segunda condição</b> for verdadeira faça outra coisa, <b>se não</b> (segunda condição falsa) faça uma terceira coisa.",
+          "subtitulo": "<b>Se condição</b> verdadeira faça algo, <br><b>se não</b>, <b>se segunda condição</b> for verdadeira faça outra coisa,<br> <b>se não</b> (segunda condição falsa) faça uma terceira coisa.<br><br><b>Obs:</b> Ha duas formas de definir blocos: abrir com <b>\" : \"</b><br> e fechar com <b>\" endif \"</b>  ou Abrir com <b>\" { \"</b> e fechar com <b>\" } \"</b>",
           "sintaxe": "<p class='md-body-1'> if (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> elseif (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> else <br> { <blockquote> Instruções; </blockquote> } </p>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
@@ -511,8 +511,8 @@
         "const": {
           "titulo": "CONSTANTES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "Não se aplica",
+          "exemplo": "Não se aplica"
         },
         "leitu": {
           "titulo": "LEITURA",
@@ -546,7 +546,7 @@
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
+          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.<br><br><b>Obs:</b> Esta linguagem abre e fecha os blocos atraves da <br>indentação (recuo no codigo)",
           "sintaxe": "<p class='md-body-1'> if (Condição): <blockquote>Instruções</blockquote> else: <blockquote>Instruções</blockquote> </p>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },

@@ -12,29 +12,20 @@
   text-align: center;
 }
 
-.dadosVariaveisCor{        
-    height:10px;
+.dadosVariaveisCor{
     background-color: #FF4500;
-
 }
-.comandosBasicosCor{        
-    height:10px;
+.comandosBasicosCor{ 
     background-color: #66bb6a;
-
 }
-.estCondicionaisCor{        
-    height:10px;
+.estCondicionaisCor{ 
     background-color: #ffcc80;
-
 }
-.estRepeticaoCor{        
-    height:10px;
+.estRepeticaoCor{  
     background-color: #bcaaa4;
-
 }
 .menuLogo{
-    background-color: gray;
-   
+    background-color: gray;   
 }
 
 
@@ -42,5 +33,9 @@
     width: 75%;
 }
 .cartaoCodigo{
-    width: 400px;
+    width: 450px;
+}
+.fundo{
+    width: 100%;
+    background-color: #FF4500;
 }

@@ -38,11 +38,11 @@
               <md-content id="dadosVariaveispasso1" ng-show="isdadosVariaveis(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="dadosVariaveisCor"></div>
+                    <div class="dadosVariaveisCor" style="height:10px"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Funções matemáticas">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
-                          <div ng-repeat="l in linguagens ">
+                        <md-card-content class="md-padding dadosVariaveisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                          <div ng-repeat="l in linguagens " >
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.funMAt.subtitulo}} titulo={{l.funMAt.titulo}} altura={{l.altura}}
                               sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
                             </card>
@@ -50,7 +50,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Tipos de Dados ">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding dadosVariaveisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.tipDados.subtitulo}}  titulo={{l.tipDados.titulo}} altura={{l.altura}}
                               sintaxe={{l.tipDados.sintaxe}} exemplo={{l.tipDados.exemplo}}>
@@ -60,7 +60,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Constantes">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding dadosVariaveisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.const.subtitulo}}  titulo={{l.const.titulo}} altura={{l.altura}}
                               sintaxe={{l.const.sintaxe}} exemplo={{l.const.exemplo}}>
@@ -82,10 +82,10 @@
               <md-content id="comandosBasicospasso1" ng-show="iscomandosBasicos(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="comandosBasicosCor"></div>
+                    <div class="comandosBasicosCor" style="height:10px"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Leitura">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding comandosBasicosCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.leitu.subtitulo}}  titulo={{l.leitu.titulo}}  altura={{l.altura}}
                               sintaxe={{l.leitu.sintaxe}} exemplo={{l.leitu.exemplo}}>
@@ -95,7 +95,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Escrita">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding comandosBasicosCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.escri.subtitulo}}  titulo={{l.escri.titulo}}  altura={{l.altura}}
                               sintaxe={{l.escri.sintaxe}} exemplo={{l.escri.exemplo}}>
@@ -105,7 +105,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Atribuição">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding comandosBasicosCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.atrib.subtitulo}}  titulo={{l.atrib.titulo}}  altura={{l.altura}}
                               sintaxe={{l.atrib.sintaxe}} exemplo={{l.atrib.exemplo}}>
@@ -114,7 +114,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Comentários">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding comandosBasicosCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.comen.subtitulo}}  titulo={{l.comen.titulo}}  altura={{l.altura}}
                               sintaxe={{l.comen.sintaxe}} exemplo={{l.comen.exemplo}}>
@@ -133,10 +133,10 @@
               <md-content id="passo1" ng-show="isestCondicionais(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="estCondicionaisCor"></div>
+                    <div class="estCondicionaisCor" style="height:10px"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Operadores Lógicos">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding estCondicionaisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.opLog.subtitulo}}  titulo={{l.opLog.titulo}}  altura={{l.altura}}
                               sintaxe={{l.opLog.sintaxe}} exemplo={{l.opLog.exemplo}}>
@@ -145,7 +145,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Condicional 'Se /   Senão' ">
-                        <md-card-content class="md-padding"  layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding estCondicionaisCor"  layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.condi.subtitulo}}  titulo={{l.condi.titulo}}  altura={{l.altura}}
                               sintaxe={{l.condi.sintaxe}} exemplo={{l.condi.exemplo}}>
@@ -154,7 +154,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Escolha/Caso">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding estCondicionaisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.escol.subtitulo}}  titulo={{l.escol.titulo}}  altura={{l.altura}}
                               sintaxe={{l.escol.sintaxe}} exemplo={{l.escol.exemplo}}>
@@ -173,10 +173,10 @@
               <md-content id="passo1" ng-show="isestRepeticao(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
                   <md-card flex-xs flex-gt-xs="90" layout="column">
-                    <div class="BNDESdadosVariaveisr"></div>
+                    <div class="estRepeticaoCor" style="height:10px"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Contadores">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding estRepeticaoCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.conta.subtitulo}}  titulo={{l.conta.titulo}}  altura={{l.altura}}
                               sintaxe={{l.conta.sintaxe}} exemplo={{l.conta.exemplo}}>
@@ -185,7 +185,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Laço 'For'">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding estRepeticaoCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.refor.subtitulo}}  titulo={{l.refor.titulo}}  altura={{l.altura}}
                               sintaxe={{l.refor.sintaxe}} exemplo={{l.refor.exemplo}}>
@@ -194,7 +194,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Teste no início">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding estRepeticaoCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.reIni.subtitulo}}  titulo={{l.reIni.titulo}}  altura={{l.altura}}
                               sintaxe={{l.reIni.sintaxe}} exemplo={{l.reIni.exemplo}}>
@@ -203,7 +203,7 @@
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Teste no final">
-                        <md-card-content class="md-padding" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                        <md-card-content class="md-padding estRepeticaoCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.reFim.subtitulo}}  titulo={{l.reFim.titulo}}  altura={{l.altura}}
                               sintaxe={{l.reFim.sintaxe}} exemplo={{l.reFim.exemplo}}>
