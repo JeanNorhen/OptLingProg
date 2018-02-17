@@ -143,7 +143,7 @@
         "const": {
           "titulo": "CONSTANTES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "CONST<br>   nome_da_constante = valor_da_constante ;",
+          "sintaxe": "<b>CONST</b><br>   nome_da_constante = valor_da_constante ;",
           "exemplo": "CONST<br>PI=3.1415926;"
         },
         "leitu": {
@@ -235,7 +235,7 @@
         "const": {
           "titulo": "CONSTANTES",
           "subtitulo": "Define uma variável do tipo static ou global, que já é a <br>versão final, do tipo string, atribui um nome e inicializa com um valor ",
-          "sintaxe": "static/global final String nome_da_constante = valor_da_constante;",
+          "sintaxe": "<b>static/global final String </b>nome_da_constante = valor_da_constante;",
           "exemplo": "static final float PI=3.14159265f;"
         },
         "leitu": {
@@ -327,7 +327,7 @@
         "const": {
           "titulo": "CONSTANTES",
           "subtitulo": "Define uma constante com um determinado nome e valor, <br>imutáveis em tempo de execução",
-          "sintaxe": "const name_da_constante = valor ",
+          "sintaxe": "<b>const</b> name_da_constante = valor ",
           "exemplo": "const pi = 3.14159265;"
         },
         "leitu": {
@@ -403,7 +403,7 @@
         "imagem": "img/php.png",
         "visibilidade": "true",
         "versao": "versão: 5.2.0",
-        "altura": "600px",
+        "altura": "650px",
         "funMAt": {
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
@@ -419,8 +419,8 @@
         "const": {
           "titulo": "CONSTANTES",
           "subtitulo": "Define uma constante com os parametros, nome, valor e se <br>esta deve ser sensível a maiúsculas e minúsculas ",
-          "sintaxe": "define ( nome, Valor,true)",
-          "exemplo": "\<\? php<br>define(\"CONSTANTE\"\, \"Alô Mundo.\"\);<br>echo CONSTANTE;<br>echo Constante;<br>define\(\"GREETING\"\, \"Alô Você.\",TRUE\)\;<br>echo GREETING\;<br>echo Greeting\;<br>?>"
+          "sintaxe": "<b>define</b> \( nome, Valor,true\)",
+          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "leitu": {
           "titulo": "LEITURA",
