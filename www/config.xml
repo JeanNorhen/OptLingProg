@@ -40,11 +40,11 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <icon src="res/icon/android/drawable-ldpi.png" qualifier="ldpi" />
-        <icon src="res/icon/android/drawable-mdpi.png" qualifier="mdpi" />
-        <icon src="res/icon/android/drawable-hdpi.png" qualifier="hdpi" />
-        <icon src="res/icon/android/drawable-xhdpi.png" qualifier="xhdpi" />
-        <icon src="res/icon/android/drawable-xxhdpi.png"  qualifier="xxhdpi" />
-        <icon src="res/icon/android/drawable-xxxhdpi.png"  qualifier="xxxhdpi" />
+        <icon src="res/icon/android/drawable-ldpi-icon.png" qualifier="ldpi" />
+        <icon src="res/icon/android/drawable-mdpi-icon.png" qualifier="mdpi" />
+        <icon src="res/icon/android/drawable-hdpi-icon.png" qualifier="hdpi" />
+        <icon src="res/icon/android/drawable-xhdpi-icon.png" qualifier="xhdpi" />
+        <icon src="res/icon/android/drawable-xxhdpi-icon.png"  qualifier="xxhdpi" />
+        <icon src="res/icon/android/drawable-xxxhdpi-icon.png"  qualifier="xxxhdpi" />
     </platform>
 </widget>
