@@ -40,12 +40,24 @@
     height:100%;
 }
 
-@media only screen and (min-width: 801px) {
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+
+    .cartaoTamanho{
+        max-width: 200px;     
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+    .cartaoTamanho{
+        max-width: 290px;     
+    }
+
+}
+@media only screen and (min-width: 901px) {
     .cartaoTamanho{
         max-width: 390px;     
     }
 
-}
-.cartaoTamanho{
-    max-width: 280px;
 }
