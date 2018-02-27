@@ -42,23 +42,7 @@
 
 
 
-@media screen and  (max-width: 600px) {
-
-    .cartaoTamanho{
-        max-width: 250px;     
-    }
-
-}
-@media screen and (min-width: 701px) and (max-width: 80px) {
 
     .cartaoTamanho{
         max-width: 280px;     
     }
-
-}
-@media only screen and (min-width: 901px) {
-    .cartaoTamanho{
-        max-width: 380px;     
-    }
-
-}  
