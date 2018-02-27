@@ -42,13 +42,13 @@
 
 
 
-@media screen and  (min-width: 850px) {
+@media screen and  (min-width: 850px)  and (max-width: 1657px){
 
     .cartaoTamanho{
-        width: 450px;     
+        max-width: 450px;     
     }
 
 }
     .cartaoTamanho{
-        max-width: 280px;     
+        max-width: 270px;     
     }
