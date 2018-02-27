@@ -1,4 +1,4 @@
-<md-card  style="min-height:altura"   flex="noshrink" data-ng-show="visi">
+<md-card  style="min-height:altura"  class="cartaoTamanho" flex="auto"  data-ng-show="visi">
     <md-card-header>
       <md-card-avatar>
         <img class="md-user-avatar" ng-src={{imagem}}>
@@ -22,7 +22,7 @@
           </md-card-actions>
     <md-divider></md-divider>
     <md-card-content >  
-    <div layout="row" class="cartaoCodigo" > 
+    <div layout="row"  > 
         <p class="md-subhead" flex="auto"  ng-bind-html="sintaxe" layout-align="start"></p>
         <p class="md-subhead" flex="auto" ng-if="mostraExemplo" ng-bind-html="exemplo" layout-align="end"></p>
     </div>

@@ -29,6 +29,7 @@
   });
   app.controller('AppCtrl', AppCtrl);
   function AppCtrl($scope) {
+    $scope.barraLateral="true";
     $scope.linguagens = [
       {
         "nome": "C",

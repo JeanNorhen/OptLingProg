@@ -22,41 +22,43 @@
 
     <div ng-cloak>
 
-      <md-toolbar >   
-        <div class="md-toolbar-tools"  layout="row" layout-align="center" >
-            <img class="md-user-avatar logoBarra" ng-src="img/logo.png">
-        </div>
+      <md-toolbar layout="row">   
+        <div class="md-toolbar-tools" flex layout-align="center"  >
+               <img class="md-user-avatar logoBarra"  ng-src="img/logo.png">
 
+          </div>
+          <md-button class="my-list-buttons "  flex="10"   ng-click="barraLateral = !barraLateral">
+              <img class="md-user-avatar botaoBarra" src="img/menu.png">
+          </md-button>
       </md-toolbar>
 
       <div layout="row" >
-        <div flex="90" >
+        <div flex >
           <md-tabs md-dynamic-height md-border-bottom >
             <!--///////////////////////Dados e Variáveis isdadosVariaveis(1)//////////////////////////// -->
 
             <md-tab label="Dados e Variáveis">
               <md-content id="dadosVariaveispasso1" ng-show="isdadosVariaveis(1)">
-                <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
-                  <md-card flex-xs flex-gt-xs="90" layout="column">
+                <div class="md-padding" layout="row" layout-align="center">
+                  <md-card >
                     <div class="dadosVariaveisCor" style="height:10px"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Funções matemáticas">
-                        <md-card-content class="md-padding dadosVariaveisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
-                          <div ng-repeat="l in linguagens " >
-                            <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.funMAt.subtitulo}} titulo={{l.funMAt.titulo}} altura={{l.altura}}
+                          <md-card-content class="md-padding dadosVariaveisCor"  layout="row" layout-wrap layout-align="center">
+                            <div ng-repeat="l in linguagens " >
+                                <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.funMAt.subtitulo}} titulo={{l.funMAt.titulo}} altura={{l.altura}}
                               sintaxe={{l.funMAt.sintaxe}} exemplo={{l.funMAt.exemplo}}>
-                            </card>
-                          </div>
+                            </card> 
+                           </div>
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Tipos de Dados ">
-                        <md-card-content class="md-padding dadosVariaveisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
-                          <div ng-repeat="l in linguagens ">
+                        <md-card-content class="md-padding dadosVariaveisCor"  layout="row"  layout-wrap layout-align="center">
+                          <div ng-repeat="l in linguagens "  >
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.tipDados.subtitulo}}  titulo={{l.tipDados.titulo}} altura={{l.altura}}
                               sintaxe={{l.tipDados.sintaxe}} exemplo={{l.tipDados.exemplo}}>
                             </card>
                           </div>
-
                         </md-card-content>
                       </md-tab>
                       <md-tab label="Constantes">
@@ -81,7 +83,7 @@
 
               <md-content id="comandosBasicospasso1" ng-show="iscomandosBasicos(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
-                  <md-card flex-xs flex-gt-xs="90" layout="column">
+                  <md-card >
                     <div class="comandosBasicosCor" style="height:10px"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
                       <md-tab label="Leitura">
@@ -217,26 +219,32 @@
               </md-content>
             </md-tab>
           </md-tabs>
+
         </div>
-        <div flex="10" layout="column" class="menuLogo md-padding " layout-align="start center">
-          <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[0].visibilidade = !linguagens[0].visibilidade">
-            <img class="md-user-avatar logo" src="img/c.png">
-          </md-button>
-          <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[1].visibilidade = !linguagens[1].visibilidade">
-            <img class="md-user-avatar logo" src="img/pascal.png">
-          </md-button>
-          <md-button class=" my-list-buttons " aria-label="Bookmark" ng-click="linguagens[2].visibilidade = !linguagens[2].visibilidade">
-            <img class="md-user-avatar logo" src="img/java.png">
-          </md-button>
-          <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[3].visibilidade = !linguagens[3].visibilidade">
-            <img class="md-user-avatar logo" src="img/javascript.png">
-          </md-button>
-          <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[4].visibilidade = !linguagens[4].visibilidade">
-            <img class="md-user-avatar logo" src="img/php.png">
-          </md-button>
-          <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[5].visibilidade = !linguagens[5].visibilidade">
-            <img class="md-user-avatar logo" src="img/python.png">
-          </md-button>
+        <div ng-show="barraLateral" flex="10">
+            <div  layout="column" class="menuLogo md-padding " layout-align="start center" >
+                <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[0].visibilidade = !linguagens[0].visibilidade">
+                  <img class="md-user-avatar logo" src="img/c.png">
+                </md-button>
+                <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[1].visibilidade = !linguagens[1].visibilidade">
+                  <img class="md-user-avatar logo" src="img/pascal.png">
+                </md-button>
+                <md-button class=" my-list-buttons " aria-label="Bookmark" ng-click="linguagens[2].visibilidade = !linguagens[2].visibilidade">
+                  <img class="md-user-avatar logo" src="img/java.png">
+                </md-button>
+                <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[3].visibilidade = !linguagens[3].visibilidade">
+                  <img class="md-user-avatar logo" src="img/javascript.png">
+                </md-button>
+                <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[4].visibilidade = !linguagens[4].visibilidade">
+                  <img class="md-user-avatar logo" src="img/php.png">
+                </md-button>
+                <md-button class="my-list-buttons " aria-label="Bookmark" ng-click="linguagens[5].visibilidade = !linguagens[5].visibilidade">
+                  <img class="md-user-avatar logo" src="img/python.png">
+                </md-button>
+                <md-button class="my-list-buttons " ng-click="barraLateral = !barraLateral">
+                    <img class="md-user-avatar botaoBarra" src="img/hide.png">
+                </md-button>
+              </div>
         </div>
       </div>
     </div>
