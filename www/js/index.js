@@ -65,7 +65,7 @@
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>printf()</b> # Escrever uma saída na tela <br>",
-          "exemplo": "#include <stdio.h><br> int main()<br> {<br> printf(\"Essa linha será impressa na tela\");<br> return 0;<br> }"
+          "exemplo": "#include <stdio.h><br> int main()<br> {<br> <b>printf(\"Essa linha será impressa na tela\");</b><br> return 0;<br> }"
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
@@ -157,7 +157,7 @@
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Write ()</b> # Escrever uma saída na tela <br> <b>Writeln ()</b> #Escrever uma saída na tela e salta uma linha.",
-          "exemplo": "var<br> nota : integer;<br> begin<br> nota:=5;<br> Write(‘Nota digitada: ’,nota );<br> Writeln(‘Nota digitada: ’,nota );<br> end.<br>"
+          "exemplo": "var<br> nota : integer;<br> begin<br> nota:=5;<br> <b>write(‘Nota digitada: ’,nota );</b><br> <b>writeln(‘Nota digitada: ’,nota );</b><br> end.<br>"
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
@@ -340,8 +340,8 @@
         "escri": {
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>document.write();</b><br>ou<br><b>console.log();</b><br>",
+          "exemplo": "// Exemplo de enviar algo para a página html<br> <b>document.write(5 + 6);</b><br> // Exemplo de enviar algo para a console do navegador <br> var s = \"texto\"; <br> <b>console.log(s);</b><br>"
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
@@ -525,7 +525,7 @@
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>print()</b> # Escrever uma saída na tela <br>",
-          "exemplo": "print(\"Essa linha será impressa na tela\")"          
+          "exemplo": "<b>print(\"Essa linha será impressa na tela\")</b>"          
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
