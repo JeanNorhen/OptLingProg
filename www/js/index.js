@@ -40,7 +40,7 @@
         "funMAt": {
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>+</b>Adição<br> <b>-</b>Subtração<br> <b>* </b> Multiplicação <br> <b>/</b>Divisão<br> <b>%</b>-Retorna o resto da divisão.<br> <b>Pow(variável, expoente) </b> -Potenciação. <br> <b>Sin( )</b>-Seno.<br> <b>Cos( )</b>-Cosseno.<br> <b>Tan( )</b>-Seno.<br> <b>Log( )</b>-Logaritmo natural.<br> <b>Log10( )</b>-Logaritmo base 10.<br> <b>Sqrt( )</b>-Calcula raiz quadrada.<br> <b>Floor( ) </b>-Arredonda para baixo.<br> <b>Ceil( ) </b>-Arredonda para cima.<br>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
@@ -58,14 +58,14 @@
         "leitu": {
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>scanf ()</b> #le uma entrada do teclado. <br>",
+          "exemplo": "int idade = 0; <br> printf(\"Qual é a sua idade: \"); <br> scanf(\"%d\", &idade);<br>"
         },
         "escri": {
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>printf()</b> # Escrever uma saída na tela <br>",
+          "exemplo": "#include <stdio.h><br> int main()<br> {<br> printf(\"Essa linha será impressa na tela\");<br> return 0;<br> }"
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
@@ -132,7 +132,7 @@
         "funMAt": {
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>* </b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>DIV</b>-Retorna o quociente inteiro da divisão.<br> <b>MOD</b>-Retorna o resto da divisão.<br> <b>INT </b> -Resulta a parte inteira de um número. <br> <b>FRAC</b>-Resulta a parte fracionária.<br> <b>ABS </b>-Resulta o valor absoluto.<br> <b>SQR </b>-Resulta no quadrado.<br> <b>SQRT </b>-Resulta na raiz quadrada.<br>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
@@ -150,14 +150,14 @@
         "leitu": {
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>Read()</b> #le uma entrada do teclado. <br> <b>Readln()</b> #lê uma entrada do teclado e salta uma linha.",
+          "exemplo": "var<br> nota : integer;<br> begin<br> Read(nota);<br> Readln(nota);<br> end.<br>"
         },
         "escri": {
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>Write ()</b> # Escrever uma saída na tela <br> <b>Writeln ()</b> #Escrever uma saída na tela e salta uma linha.",
+          "exemplo": "var<br> nota : integer;<br> begin<br> nota:=5;<br> Write(‘Nota digitada: ’,nota );<br> Writeln(‘Nota digitada: ’,nota );<br> end.<br>"
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
@@ -224,7 +224,7 @@
         "funMAt": {
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>* </b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>%</b>-Retorna o resto da divisão.<br> <b>** </b>-Exponencial<br> <b>abs </b>-Resulta o valor absoluto.<br> <b>sqrt </b>-Resulta na raiz quadrada.<br> <b>Max(número)</b>-Retornam o maior valor<br> <b>Min(número) </b>-Retornam o menor valor<br> <b>Pow(base, expoente)</b>-Calcula a potência da base elevada ao expoente<br> ...existem mais... Consulte <b>documentação oficial</b>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
@@ -242,8 +242,8 @@
         "leitu": {
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "Função <b>next()</b> da biblioteca : <b>System.in</b><br><br><br> ...existem mais bibliotecas... Consulte <b>documentação oficial</b>",
+          "exemplo": "import java.util;<br> public class HelloWorld {<br> public static void main(String[] args){<br> Scanner scan = new Scanner(System.in);<br> System.out.println(\"Qual é seu nome ?\");<br> <b>String nome = scan.next();</b><br> System.out.println(\"Bem vindo ao Java, \" + nome);<br> }<br> }<br>"
         },
         "escri": {
           "titulo": "ESCRITA",
@@ -316,7 +316,7 @@
         "funMAt": {
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>* </b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>Math.abs(x) </b>-Retorna o módulo, ou valor absoluto, de um número.<br> <b>Math.sqrt(x) </b>-Retorna a raiz quadrada positiva de um número.<br> <b>Math.acos(x) </b>-Retorna o arco-coseno de um número.<br> <b>Math.acosh(x) </b>-Retorna o arco-coseno hiperbólico de um número.<br> <b>Math.asin(x) </b>-Retorna o arco-seno de um número.<br> <b>Math.asinh(x) </b>-Retorna o arco-seno hiperbólico de um número.<br> ...existem mais... Consulte <b>documentação oficial</b>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
@@ -334,8 +334,8 @@
         "leitu": {
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>window.prompt()</b>",
+          "exemplo": "var nome = <b>window.prompt(\"qual o seu nome ?\", \" \");</b> <br> window.alert(\"Oi \" + nome); <br>"
         },
         "escri": {
           "titulo": "ESCRITA",
@@ -408,7 +408,7 @@
         "funMAt": {
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>*</b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>\%</b>-Retorna o resto da divisão.<br> <b>** </b>-Exponencial<br> <b>abs </b>-Resulta o valor absoluto.<br> <b>sqrt </b>-Resulta na raiz quadrada.<br> <b>acos</b>-Cosseno Inverso (arco cosseno)<br> <b>acosh </b>-Cosseno Hiperbólico Inverso<br> <b>asin</b>-Seno Inverso (arco seno)<br> <b>asinh </b>-Resulta na raiz quadrada.<br> ...existem mais... Consulte <b>documentação oficial</b>",
           "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
@@ -500,8 +500,8 @@
         "funMAt": {
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>+</b>Adição<br> <b>-</b>Subtração<br> <b>* </b> Multiplicação <br> <b>/</b>Divisão<br> <b>** </b>-Exponencial<br> <b>%</b>-Retorna o resto da divisão.<br> <b>//</b>-Resulta o módulo da divisão .<br> <b>Math.fabs </b>-Resulta o valor absoluto.<br> <b>Math.sqrt(numero) </b>-Retorna a raíz quadrada do número.<br> <b>Math.pi </b>-Não é bem uma função, está mais para uma constante com o número pi<br> <b>Math.cos(numero) </b>-Retorna o cosseno do número em radiano.<br> <b>Math.tan(numero) </b>-Retorna a tangente do número em radiano.<br> <b>Math.radians(numero) </b>-Converte o angulo ‘numero’ de graus para radiano.<br> <b>math.hypot(x, y) </b>-Retorna a hipotenusa dos números (catetos) fornecidos.<br>",
+          "exemplo": "import math<br> print(10+10)<br> print(10-10)<br> print( 2*32)<br> print(10/5)<br> print( 2**32)<br> print(10%6)<br> print(10//6)<br> print(math.fabs(1.001)) <br> print(math.sqrt(10)) <br> print(math.pi) <br> print(math.cos(1.001)) <br> print(math.tan(10,125)) <br> print(math.radians(10)) <br> print(Math.hypot(v1, v2)) <br>"
         },
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
@@ -524,8 +524,8 @@
         "escri": {
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>print()</b> # Escrever uma saída na tela <br>",
+          "exemplo": "print(\"Essa linha será impressa na tela\")"          
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",

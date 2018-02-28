@@ -23,8 +23,8 @@
     <md-divider></md-divider>
     <md-card-content >  
     <div layout="row"  > 
-        <p class="md-subhead" flex="auto"  ng-bind-html="sintaxe" layout-align="start"></p>
-        <p class="md-subhead" flex="auto" ng-if="mostraExemplo" ng-bind-html="exemplo" layout-align="end"></p>
+        <p class="md-subhead"   ng-if="!mostraExemplo" ng-bind-html="sintaxe" layout-align="start"></p>
+        <p class="md-subhead" ng-if="mostraExemplo" ng-bind-html="exemplo" layout-align="end"></p>
     </div>
     </md-card-content>
   </md-card>  
