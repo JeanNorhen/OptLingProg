@@ -59,7 +59,7 @@
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>scanf ()</b> #le uma entrada do teclado. <br>",
-          "exemplo": "int idade = 0; <br> printf(\"Qual é a sua idade: \"); <br> scanf(\"%d\", &idade);<br>"
+          "exemplo": "int idade = 0; <br> printf(\"Qual é a sua idade: \"); <br> <b>scanf(\"%d\", &idade);</b><br>"
         },
         "escri": {
           "titulo": "ESCRITA",
@@ -151,7 +151,7 @@
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Read()</b> #le uma entrada do teclado. <br> <b>Readln()</b> #lê uma entrada do teclado e salta uma linha.",
-          "exemplo": "var<br> nota : integer;<br> begin<br> Read(nota);<br> Readln(nota);<br> end.<br>"
+          "exemplo": "var<br> nota : integer;<br> begin<br> <b>Read(nota);</b><br> <b>Readln(nota);</b><br> end.<br>"
         },
         "escri": {
           "titulo": "ESCRITA",
@@ -248,8 +248,8 @@
         "escri": {
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>System.out.println()</b>",
+          "exemplo": "import java.util;<br> public class HelloWorld {<br> public static void main(String[] args){<br> Scanner scan = new Scanner(System.in);<br> System.out.println(\"Qual é seu nome ?\");<br> String nome = scan.next();<b><br> <b>System.out.println(\"Bem vindo ao Java, \" + nome);</b><br> }<br> }<br>"
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
@@ -426,14 +426,14 @@
         "leitu": {
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "$variavel =<b>readline(\"Texto\");</b>",
+          "exemplo": "$nome = <b>readline(\"Digite seu nome: \");</b><br> echo \"Olá, \".$nome.\". \";"
         },
         "escri": {
           "titulo": "ESCRITA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>echo</b> \"texto\";",
+          "exemplo": " $str = \"texto\";<br> <b>echo</b> $str; <br>"
         },
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
@@ -518,8 +518,8 @@
         "leitu": {
           "titulo": "LEITURA",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>input()</b>",
+          "exemplo": "#coding: utf-8<br> num = <b>input(\"Digite um número:\")</b><br> print(num)<br>"
         },
         "escri": {
           "titulo": "ESCRITA",
