@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.HelpWorld" version="1.2.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.phonegap.HelpWorld" version="1.2.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Help World</name>
     <description>
         Base para migração entre linguagens de programação, desenvolvido para auxiliar alunos do curso de sistemas de informação a migrar entre as diferentes linguagens

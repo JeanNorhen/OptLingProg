@@ -70,8 +70,8 @@
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "variável <b>=</b>  valor",
+          "exemplo": "int main (void){<br> int a;<br> a<b>=</b>15+5;<br> printf (\"a=%d\n\", a);<br> return 0; }"
         },
         "comen": {
           "titulo": "COMENTÁRIOS",
@@ -162,8 +162,8 @@
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "variável <b>:=</b>  valor",
+          "exemplo": "var<br> num:integer;<br> begin <br> num<b>:=</b>2+2; <br> writeln('O número é ',num); <br> end.<br>"
         },
         "comen": {
           "titulo": "COMENTÁRIOS",
@@ -254,8 +254,8 @@
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "x<b> -= </b>1 <br> x <b>+= </b>1<br> x <b>*= </b>1<br> x <b>/= </b>1<br> x <b>%= </b>1 <br>",
+          "exemplo": "public class nomeClasse { <br> public static void main(String[] args) { <br> int x, y = 10; <br> System.out.println( x += y); <br> System.out.println( x -= y); <br> System.out.println( x *= y); <br> System.out.println( x /= y); <br> System.out.println( x %= y); <br> } <br> } <br>"
         },
         "comen": {
           "titulo": "COMENTÁRIOS",
@@ -346,8 +346,8 @@
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "x<b> = </b>1 <br> x<b> -= </b>1 <br> x <b>+= </b>1<br> x <b>*= </b>1<br> x <b>/= </b>1<br> x <b>%= </b>1 <br> x<b>**= </b>1 <br> x <b><<= </b>1<br> x <b>>>= </b>1<br> x <b>&= </b>1 <br> x<b>^= </b>1 <br> x <b>|= </b>1<br>",
+          "exemplo": "resu <b>=</b> 2<br> resu <b>-=</b> 2<br> resu <b>+=</b> 2<br> resu <b>/=</b> 2<br> resu <b>%=</b> 2<br> resu <b>**=</b> 2<br> resu <b>>>=</b> 2<br> resu <b>>>>=</b> 2<br> resu <b>&=</b> 2<br> resu <b>^=</b> 2<br> resu <b>|=</b> 2<br>"
         },
         "comen": {
           "titulo": "COMENTÁRIOS",
@@ -438,8 +438,8 @@
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "variável <b>=</b>  valor",
+          "exemplo": "$a <b>=</b> 4; print \"$a\n\";"
         },
         "comen": {
           "titulo": "COMENTÁRIOS",
@@ -530,8 +530,8 @@
         "atrib": {
           "titulo": "ATRIBUIÇÃO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "variável <b>=</b>  valor",
+          "exemplo": "#coding: utf-8<br> num <b>=</b> 10<br> txt <b>=</b> \"texto\"<br>"
         },
         "comen": {
           "titulo": "COMENTÁRIOS",
