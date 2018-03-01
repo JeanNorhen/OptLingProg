@@ -41,13 +41,13 @@
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>+</b>Adição<br> <b>-</b>Subtração<br> <b>* </b> Multiplicação <br> <b>/</b>Divisão<br> <b>%</b>-Retorna o resto da divisão.<br> <b>Pow(variável, expoente) </b> -Potenciação. <br> <b>Sin( )</b>-Seno.<br> <b>Cos( )</b>-Cosseno.<br> <b>Tan( )</b>-Seno.<br> <b>Log( )</b>-Logaritmo natural.<br> <b>Log10( )</b>-Logaritmo base 10.<br> <b>Sqrt( )</b>-Calcula raiz quadrada.<br> <b>Floor( ) </b>-Arredonda para baixo.<br> <b>Ceil( ) </b>-Arredonda para cima.<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Int</b> Números Inteiros<br> <b>Char</b> Caractere <br> <b>Float</b> Ponto Flutuante (real)<br> <b>[ ]</b> Vetor <br> <b>Obs:</b> C não possui um tipo para representar valores booleanos<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
           "titulo": "CONSTANTES",
@@ -76,50 +76,50 @@
         "comen": {
           "titulo": "COMENTÁRIOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "opLog": {
           "titulo": "OPERADORES LÓGICOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "void main( ) <br> { <br> int idade = 0;<br> printf(\"Qual é a sua idade: \"); <br> scanf(\"%d\", &idade);<br> <b>If (idade >0) <br> { <br> printf(\"O valor é positivo\"); <br> } <br></b> }<br>"
         },
         "escol": {
           "titulo": "ESCOLHA/CASO",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
           "titulo": "LAÇO 'FOR'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reIni": {
           "titulo": "TESTE NO INÍCIO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reFim": {
           "titulo": "TESTE NO FINAL",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         }
 
       },
@@ -133,7 +133,7 @@
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>* </b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>DIV</b>-Retorna o quociente inteiro da divisão.<br> <b>MOD</b>-Retorna o resto da divisão.<br> <b>INT </b> -Resulta a parte inteira de um número. <br> <b>FRAC</b>-Resulta a parte fracionária.<br> <b>ABS </b>-Resulta o valor absoluto.<br> <b>SQR </b>-Resulta no quadrado.<br> <b>SQRT </b>-Resulta na raiz quadrada.<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
@@ -168,50 +168,50 @@
         "comen": {
           "titulo": "COMENTÁRIOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "opLog": {
           "titulo": "OPERADORES LÓGICOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<p class='md-body-1'> If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br> </p>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "Uses Crt;<br> var X, Y : Integer;<br> begin<br> Writeln ('Entre com dois Números:'); <br> Readln (X, Y);<br> <b> If (X > Y) Then <br> Writeln ('X é Maior que Y, e seu valor é = ', X);</b><br> end.<br>"
         },
         "escol": {
           "titulo": "ESCOLHA/CASO",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
           "titulo": "LAÇO 'FOR'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reIni": {
           "titulo": "TESTE NO INÍCIO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reFim": {
           "titulo": "TESTE NO FINAL",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         }
 
       },
@@ -225,13 +225,13 @@
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>* </b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>%</b>-Retorna o resto da divisão.<br> <b>** </b>-Exponencial<br> <b>abs </b>-Resulta o valor absoluto.<br> <b>sqrt </b>-Resulta na raiz quadrada.<br> <b>Max(número)</b>-Retornam o maior valor<br> <b>Min(número) </b>-Retornam o menor valor<br> <b>Pow(base, expoente)</b>-Calcula a potência da base elevada ao expoente<br> ...existem mais... Consulte <b>documentação oficial</b>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Byte </b> Armazenar 8 bits de informação<br> <b>Short </b>Armazenar números inteiros de 16 bits<br> <b>Int </b> ou <b>Long </b> Números Inteiros<br> <b>Char </b> Um caractere <br> <b>String </b> Um ou mais caracteres (OBJETO) <br> <b>Double </b> ou <b>Float</b> Ponto Flutuante<br> <b>[]</b> Vetor ( pacote java.util )<br> <b>Boolean </b> armazena True ou False<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
           "titulo": "CONSTANTES",
@@ -260,50 +260,50 @@
         "comen": {
           "titulo": "COMENTÁRIOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "opLog": {
           "titulo": "OPERADORES LÓGICOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<p class='md-body-1'> if (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> else <br> { <blockquote> Instruções; </blockquote> } <br> </p>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "int idade = 17;<br> String sexo = \"h\";<br> <b>if(idade >= 18){<br> System.out.println(\"idade menor que 18\");<br> }else if(sexo == \"f\"){ // apenas colocando um if dentro de um else<br> System.out.println(\"sexo diferente de h\");<br> }else{ // esse else é do segundo if<br> System.out.println(\"idade > 18 e sexo h\");<br> }<br></b>"
         },
         "escol": {
           "titulo": "ESCOLHA/CASO",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
           "titulo": "LAÇO 'FOR'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reIni": {
           "titulo": "TESTE NO INÍCIO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reFim": {
           "titulo": "TESTE NO FINAL",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         }
 
       },
@@ -317,13 +317,13 @@
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>* </b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>Math.abs(x) </b>-Retorna o módulo, ou valor absoluto, de um número.<br> <b>Math.sqrt(x) </b>-Retorna a raiz quadrada positiva de um número.<br> <b>Math.acos(x) </b>-Retorna o arco-coseno de um número.<br> <b>Math.acosh(x) </b>-Retorna o arco-coseno hiperbólico de um número.<br> <b>Math.asin(x) </b>-Retorna o arco-seno de um número.<br> <b>Math.asinh(x) </b>-Retorna o arco-seno hiperbólico de um número.<br> ...existem mais... Consulte <b>documentação oficial</b>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Number </b> Números Inteiros<br> <b>String </b> Um ou mais caracteres <br> <b>Boolean </b> armazena True ou False<br> <b>Float </b> Ponto Flutuante <br> <b>[]</b> Vetor ( pacote java.util )<br> <b>Null </b>Seu valor é sempre nulo.<br> <b>undefined </b>Seu valor é sempre undefined.<br> <b>Symbol </b>Um tipo de dado cuja as instâncias são únicas e imutáveis.(<b>novo </b/>)<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
           "titulo": "CONSTANTES",
@@ -352,50 +352,50 @@
         "comen": {
           "titulo": "COMENTÁRIOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "opLog": {
           "titulo": "OPERADORES LÓGICOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
+          "subtitulo": "IF é uma estrutura de controle utilizada para tomar decisões. Realiza umas ou mais operações em função de uma expressão na forma de condição. Basicamente primeiro é dada uma condição e caso essa condição seja positiva, ele executa a ação.",
           "sintaxe": "<p class='md-body-1'> if (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> else <br> { <blockquote> Instruções; </blockquote> } <br> </p>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "< script language=’JavaScript’ type=’text/javascript’ ><br> <b>if (25 == 35) {<br> document.write (‘Estes números são iguais’);<br> } else {<br> document.write (\"Estes números não são iguais\");<br> }</b> < /script >"
         },
         "escol": {
           "titulo": "ESCOLHA/CASO",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
+          "sintaxe": "<b>switch ( $numero )</b>{<br> case 1:<br> $mensagem = 'uma bicicleta';<br> break;<br> case 2:<br> $mensagem = 'uma casa';<br> break;<br> default:<br> $mensagem = 'nada, infelizmente';<br> }<br>",
+          "exemplo": "< ? php<br> <b>switch ($i) {<br> case 0:<br> echo \"i equals 0\";<br> break;<br> case 1:<br> echo \"i equals 1\";<br> break;<br> case 2:<br> echo \"i equals 2\";<br> break;<br> }</b><br> ? ><br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
           "titulo": "LAÇO 'FOR'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reIni": {
           "titulo": "TESTE NO INÍCIO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reFim": {
           "titulo": "TESTE NO FINAL",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         }
 
       },
@@ -409,19 +409,19 @@
           "titulo": "FUNÇÕES MATEMÁTICAS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>+</b>-Adição<br> <b>-</b>-Subtração<br> <b>*</b>-Multiplicação <br> <b>/</b>-Divisão<br> <b>\%</b>-Retorna o resto da divisão.<br> <b>** </b>-Exponencial<br> <b>abs </b>-Resulta o valor absoluto.<br> <b>sqrt </b>-Resulta na raiz quadrada.<br> <b>acos</b>-Cosseno Inverso (arco cosseno)<br> <b>acosh </b>-Cosseno Hiperbólico Inverso<br> <b>asin</b>-Seno Inverso (arco seno)<br> <b>asinh </b>-Resulta na raiz quadrada.<br> ...existem mais... Consulte <b>documentação oficial</b>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "tipDados": {
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Integer</b> Números Inteiros<br> <b>String </b> Um ou mais caracteres <br> <b>Double </b> ou <b>Float</b> Ponto Flutuante<br> <b>Array </b> Vetor<br> <b>Boolean </b> Armazena True ou False<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
           "titulo": "CONSTANTES",
           "subtitulo": "Define uma constante com os parametros, nome, valor e se <br>esta deve ser sensível a maiúsculas e minúsculas ",
           "sintaxe": "<b>define</b> \( nome, Valor,true\)",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "leitu": {
           "titulo": "LEITURA",
@@ -444,50 +444,50 @@
         "comen": {
           "titulo": "COMENTÁRIOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "opLog": {
           "titulo": "OPERADORES LÓGICOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
-          "subtitulo": "<b>Se condição</b> verdadeira faça algo, <br><b>se não</b>, <b>se segunda condição</b> for verdadeira faça outra coisa,<br> <b>se não</b> (segunda condição falsa) faça uma terceira coisa.<br><br><b>Obs:</b> Ha duas formas de definir blocos: abrir com <b>\" : \"</b><br> e fechar com <b>\" endif \"</b>  ou Abrir com <b>\" { \"</b> e fechar com <b>\" } \"</b>",
+          "subtitulo": "elseif, como o nome sugere, é uma combinação do if e else. Como o else, estende um if para executar instruções diferentes no caso da expressão if original ser avaliada como FALSE. Entretanto, diferentemente do else, executará uma expressão alternativa somente se a expressão condicional do elseif for avaliada como TRUE. Por exemplo, o código a seguir exibirá a is bigger than b, a equal to b ou a is smaller than b:",
           "sintaxe": "<p class='md-body-1'> if (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> elseif (Condição) <br> { <blockquote> Instruções; </blockquote> } <br> else <br> { <blockquote> Instruções; </blockquote> } </p>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "< ? php <br> <b>if ($a > $b) {<br> echo ‘a is bigger than b’;<br> } elseif ($a == $b) {<br> echo ‘a is equal to b’;<br> } else {<br> echo ‘a is smaller than b’;<br> }</b><br> ? >"
         },
         "escol": {
           "titulo": "ESCOLHA/CASO",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
           "titulo": "LAÇO 'FOR'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reIni": {
           "titulo": "TESTE NO INÍCIO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reFim": {
           "titulo": "TESTE NO FINAL",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         }
 
       },
@@ -507,7 +507,7 @@
           "titulo": "TIPOS DE DADOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
           "sintaxe": "<b>Int</b> Números Inteiros<br> <b>Str </b> Um ou mais caracteres <br> <b>Float</b> Ponto Flutuante (real)<br> <b>Bool </b> armazena True ou False<br> <b>List </b> para agrupar um conjunto de elementos<br> <b>Tupla </b> semelhante ao tipo list, porém, imutável<br> <b>Dic </b>para agrupar elementos que serão recuperados por uma chave<br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "const": {
           "titulo": "CONSTANTES",
@@ -536,50 +536,50 @@
         "comen": {
           "titulo": "COMENTÁRIOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "opLog": {
           "titulo": "OPERADORES LÓGICOS",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "condi": {
           "titulo": "CONDICIONAL 'SE / SENÃO'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.<br><br><b>Obs:</b> Esta linguagem abre e fecha os blocos atraves da <br>indentação (recuo no codigo)",
           "sintaxe": "<p class='md-body-1'> if (Condição): <blockquote>Instruções</blockquote> else: <blockquote>Instruções</blockquote> </p>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "exemplo": "idade = 18<br> <b>if idade < 20:<br> <blockquote> print(‘Você já tem mais de 20 anos!’) </blockquote></b>"
         },
         "escol": {
           "titulo": "ESCOLHA/CASO",
-          "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
           "titulo": "LAÇO 'FOR'",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reIni": {
           "titulo": "TESTE NO INÍCIO",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "reFim": {
           "titulo": "TESTE NO FINAL",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição)1 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição)2 Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         }
 
       }
