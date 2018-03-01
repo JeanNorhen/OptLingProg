@@ -100,7 +100,7 @@
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "int <b>CONT</b>; <br> <b>CONT</b>=1; <br> <b>CONT</b>= <b>CONT+1</b>;",
           "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
@@ -192,7 +192,7 @@
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>CONT:integer; </b> <b>CONT:=1;</b><br> <b>CONT</b>:= <b>CONT+1; </b><br>",
           "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
@@ -278,13 +278,13 @@
         "escol": {
           "titulo": "ESCOLHA/CASO",
           "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "switch( opção )<br> {<br><block<blockquote> case opção1:<br> <blockquote> Instruções;<br> break;<br> </blockquote> case opção2:<br> <blockquote> Instruções;<br> break;</blockquote> <br> default:<br> <blockquote> Instruções;</blockquote> <br> </blockquote> }<br>",
+          "exemplo": "public class ExemploSwitch {<br> <blockquote> public static void main(String args[]) {<br> <blockquote> int diaDaSemana = 1;<br> <b>switch</b> (diaDaSemana) {<br> <blockquote> <b>case 1:</b><br> <blockquote> System.out.println(\"Domingo\");<br> break;</blockquote><br> <b>case 2:</b><br> <blockquote> System.out.println(\"Segunda-feira\");<br> break;</blockquote><br> <b>case 3:</b><br> <blockquote> System.out.println(\"Terça-feira\");<br> break;</blockquote><br> <b>case 4:</b><br> <blockquote> System.out.println(\"Quarta-feira\");<br> break;</blockquote><br> <b>case 5:</b><br> <blockquote> System.out.println(\"Quinta-feira\");<br> break;</blockquote><br> <b>case 6:</b> <blockquote> System.out.println(\"Sexta-feira\");<br> break;</blockquote><br> case 7:<br> <blockquote> System.out.println(\"Sábado\");<br> break;</blockquote><br> default:<br> <blockquote> System.out.println(\"Este não é um dia válido!\");</blockquote> <br> </blockquote> }<br> </blockquote> }<br> </blockquote> }<br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "int<b> CONT; </b> <b>CONT = 0; </b> <b>CONT</b>=<b>CONT+1;</b>",
           "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
@@ -370,13 +370,13 @@
         "escol": {
           "titulo": "ESCOLHA/CASO",
           "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
-          "sintaxe": "<b>switch ( $numero )</b>{<br> case 1:<br> $mensagem = 'uma bicicleta';<br> break;<br> case 2:<br> $mensagem = 'uma casa';<br> break;<br> default:<br> $mensagem = 'nada, infelizmente';<br> }<br>",
-          "exemplo": "< ? php<br> <b>switch ($i) {<br> case 0:<br> echo \"i equals 0\";<br> break;<br> case 1:<br> echo \"i equals 1\";<br> break;<br> case 2:<br> echo \"i equals 2\";<br> break;<br> }</b><br> ? ><br>"
+          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "var <b>CONT = 0;<b><br> <b>CONT++; </b>",
           "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
@@ -462,13 +462,13 @@
         "escol": {
           "titulo": "ESCOLHA/CASO",
           "subtitulo": "A declaração switch é similar a uma série de declarações IF na mesma expressão. Em muitos casos, se deseja comparar as mesmas variáveis (ou expressões), com diferentes valores, e executar pedaços diferentes de código dependendo de qual valor ela é igual. Esta é exatamente a serventia da declaração switch.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
-          "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
+          "sintaxe": "<b>switch ( $numero )</b>{<br> case 1:<br> $mensagem = 'uma bicicleta';<br> break;<br> case 2:<br> $mensagem = 'uma casa';<br> break;<br> default:<br> $mensagem = 'nada, infelizmente';<br> }<br>",
+          "exemplo": "< ? php<br> <b>switch ($i) {<br> case 0:<br> echo \"i equals 0\";<br> break;<br> case 1:<br> echo \"i equals 1\";<br> break;<br> case 2:<br> echo \"i equals 2\";<br> break;<br> }</b><br> ? ><br>"
         },
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>$CONT = 1;</b> <b>$CONT++; </b>",
           "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
@@ -560,7 +560,7 @@
         "conta": {
           "titulo": "CONTADORES",
           "subtitulo": "Se condição verdadeira faça algo, se não faça outra coisa.",
-          "sintaxe": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>",
+          "sintaxe": "<b>CONT=0</b> <br> <b>CONT</b>= <b>CONT+1</b> <br>",
           "exemplo": "If (Condição) Then <br> Begin <blockquote> Instruções; </blockquote> End <br> Else <br> Begin <blockquote> Instruções; </blockquote> End; <br>"
         },
         "refor": {
