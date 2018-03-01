@@ -30,6 +30,7 @@
   app.controller('AppCtrl', AppCtrl);
   function AppCtrl($scope) {
     $scope.barraLateral="true";
+    $scope.escondeLixo="true";
     $scope.linguagens = [
       {
         "nome": "C",

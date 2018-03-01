@@ -115,7 +115,7 @@
                           </div>
                         </md-card-content>
                       </md-tab>
-                      <md-tab label="Comentários">
+                    <!--<md-tab label="Comentários">
                         <md-card-content class="md-padding comandosBasicosCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.comen.subtitulo}}  titulo={{l.comen.titulo}}  altura={{l.altura}}
@@ -123,7 +123,7 @@
                             </card>
                           </div>
                         </md-card-content>
-                      </md-tab>
+                      </md-tab> -->
                     </md-tabs>
                   </md-card>
                 </div>
@@ -137,15 +137,15 @@
                   <md-card >
                     <div class="estCondicionaisCor" style="height:10px"></div>
                     <md-tabs md-dynamic-height md-border-bottom>
-                      <md-tab label="Operadores Lógicos">
-                        <md-card-content class="md-padding estCondicionaisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
+                                 <!-- <md-tab label="Operadores Lógicos" ng-show="!escondeLixo"> 
+                        <md-card-content ng-show="escondeLixo" class="md-padding estCondicionaisCor" layout-xs="column" layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
                             <card ling={{l.nome}} imagem={{l.imagem}} visi="l.visibilidade" versao={{l.versao}} subtitulo={{l.opLog.subtitulo}}  titulo={{l.opLog.titulo}}  altura={{l.altura}}
                               sintaxe={{l.opLog.sintaxe}} exemplo={{l.opLog.exemplo}}>
                             </card>
                           </div>
                         </md-card-content>
-                      </md-tab>
+                      </md-tab> -->
                       <md-tab label="Condicional 'Se /   Senão' ">
                         <md-card-content class="md-padding estCondicionaisCor"  layout="row" layout-align="center" layout-wrap>
                           <div ng-repeat="l in linguagens ">
@@ -169,8 +169,8 @@
                 </div>
               </md-content>
             </md-tab>
-            <md-tab label="Est. Repetição">
-              <!--///////////////////////estRepeticao isestRepeticao(1)//////////////////////////// -->
+          <md-tab label="Est. Repetição">
+             <!-- ///////////////////////estRepeticao isestRepeticao(1)//////////////////////////// -->
 
               <md-content id="passo1" ng-show="isestRepeticao(1)">
                 <div class="md-padding" layout-xs="column" layout="row" layout-align="center">
@@ -217,7 +217,7 @@
                   </md-card>
                 </div>
               </md-content>
-            </md-tab>
+            </md-tab> 
           </md-tabs>
 
         </div>
